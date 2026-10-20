@@ -2,12 +2,16 @@
 
 ## [Unreleased]
 ### Added
+- Add overview of changes to the DANRA data since v0.5.0
+- Add forecast datasets to data availability, parameter tables and intake catalog
 - Add figure of observation usage to notebook ([#21](https://github.com/dmidk/danradocs/pull/21) @sbnielsen)
 - Add citation info via CITATION.cff file ([#17](https://github.com/dmidk/danradocs/pull/17) @khintz)
 - Add documentation on how to access DANRA output via intake catalog ([#16](https://github.com/dmidk/danradocs/pull/16) @observingClouds)
 - Add links to preprint and documentation as badges in README.md ([#16](https://github.com/dmidk/danradocs/pull/16) @observingClouds)
 
 ### Changed
+- Update data access to v0.6.1 datasets in the `s3://dmi-danra-061` bucket
+- Update parameter descriptions to v0.6.1 metadata
 - Update doi and references to published paper ([#21](https://github.com/dmidk/danradocs/pull/21) @sbnielsen)
 - Update project dependencies to be able to execute jupyter book and tests ([#16](https://github.com/dmidk/danradocs/pull/16) @observingClouds)
 
